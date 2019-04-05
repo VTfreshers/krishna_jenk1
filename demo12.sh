@@ -1,5 +1,4 @@
 #! /bin/bash
-clear
-#gcc -Wall -W *.c && ./a.out
-gcc *.c && ./a.out
-echo
+echo 'hello world'
+x=20
+echo 'value of' $x

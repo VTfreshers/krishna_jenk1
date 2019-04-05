@@ -1,7 +1,9 @@
 #!bin/bash
-echo 'how are you'
 y=22
 echo 'the value of y is '$y
-if y==22
-  echo 'yes correct ra bujji'
+if [ $y != 22 ] 
+then
+  echo "yes correct ra bujji"
+else
+  echo "wrong ra abbay"
 fi

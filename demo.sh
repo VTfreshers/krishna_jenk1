@@ -1,4 +1,4 @@
-#!bin/bash
+#! bin/bash
 y=22
 echo 'the value of y is '$y
 if [ $y != 22 ] 

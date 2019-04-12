@@ -4,11 +4,10 @@ echo "the number is " $n
 a=1
 b=2
 echo -n 'The fibonacci series are: '
-while [ $n -gt 0 ]
+for ((i=0; i<n; i++))
 do
-  c= $ ((a +b))
-  echo $c
+  echo $a
+  c=$((a + b))
   a=$b
   b=$c
-  n= $ ((n - 1))
 done

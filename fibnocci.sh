@@ -6,9 +6,9 @@ b=2
 echo -n 'The fibonacci series are: '
 while [ $n -gt 0 ]
 do
-  c=` expr $a + $b `
+  c= $ ((a +b))
   echo $c
   a=$b
   b=$c
-  n=` expr $n - 1 `
+  n= $ ((n - 1))
 done
